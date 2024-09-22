@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HomeActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp">
+
+    <ImageView
+        android:id="@+id/imgHome"
+        android:layout_width="262dp"
+        android:layout_height="340dp"
+        android:src="@drawable/splash_screen" />
+
+    <Button
+        android:id="@+id/btLihatData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data"
+        android:fontFamily="@font/poppins_medium"
+        android:drawableLeft="@drawable/ic_data_24"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btTambahData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:backgroundTint="@color/secondary_color"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/ic_add_24"/>
+
+    <Button
+        android:id="@+id/btInformasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi"
+        android:backgroundTint="@color/tersier_color"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/ic_info_24"/>
+</LinearLayout>

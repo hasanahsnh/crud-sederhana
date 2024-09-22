@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/svMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="?android:attr/textColorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            android:text="Data Mahasiswa"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <TextView
+            android:id="@+id/tvNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_user_24"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Nomor Induk Mahasiswa"
+            android:drawablePadding="7dp"/>
+
+        <TextView
+            android:id="@+id/tvNim2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9sp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:drawableStart="@drawable/ic_user_24"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="13dp"
+            android:drawablePadding="7dp"/>
+
+        <TextView
+            android:id="@+id/tvNama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9sp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/tvTtl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:drawableStart="@drawable/ic_calendar_24"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="13dp"
+            android:drawablePadding="7dp"/>
+
+        <TextView
+            android:id="@+id/tvTtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9sp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/tvJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:drawableStart="@drawable/ic_user_24"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="19dp"
+            android:drawablePadding="7dp"/>
+
+        <TextView
+            android:id="@+id/tvJenisKelamin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9sp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:drawableStart="@drawable/ic_address_24"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="7dp"/>
+
+        <TextView
+            android:id="@+id/tvAlamat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9sp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"/>
+    </LinearLayout>
+</ScrollView>
+
